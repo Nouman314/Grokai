@@ -1,0 +1,16 @@
+{
+  "name": "grokai-proxy",
+  "version": "1.0.0",
+  "description": "Vercel serverless function for Groq API proxy.",
+  "main": "api/groq-proxy.js", // This tells Vercel your main function is in api/groq-proxy.js
+  "scripts": {
+    "start": "vercel dev"
+  },
+  "keywords": [],
+  "author": "Noumman Khan",
+  "license": "ISC",
+  "dependencies": {
+    "groq-sdk": "^0.3.0" // Ensure this is the latest stable version if different, e.g., from npmjs.com/package/groq-sdk
+  },
+  "type": "module"
+}
